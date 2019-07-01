@@ -1,6 +1,5 @@
 clc;
 clear all;
-close all;		
 I=imread('D:\桌面\55.jpg');                 %读入图片
 figure,imshow(I);title('原始图像');				%显示原始图像
 E=rgb2gray(I);
